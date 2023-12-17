@@ -1,9 +1,8 @@
-// const scrollto = (section) => {
-//     console.log('working')
-//     document.querySelector(`#${section}`).scrollIntoView({
-//         behavior: 'smooth'
-//     });
-// }
+const scrollto = (section) => {
+    document.querySelector(`#${section}`).scrollIntoView({
+        behavior: 'smooth'
+    });
+}
 
 document.addEventListener("scroll", () => {
   const header = document.querySelector("header");
