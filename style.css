@@ -14,6 +14,11 @@
   font-weight: bold;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .navOption:hover {
   color: #ff9f05;
 }
@@ -112,4 +117,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgba(18, 18, 18, 0.945);
   margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
 }

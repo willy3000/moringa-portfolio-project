@@ -14,3 +14,13 @@ document.addEventListener("scroll", () => {
     console.log("scrolled removed");
   }
 });
+
+const dialog = document.getElementById("contact-dialog");
+
+function showDialog() {
+  dialog.show();
+}
+
+function closeDialog() {
+  dialog.close();
+}
